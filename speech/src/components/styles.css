@@ -1,0 +1,98 @@
+/* Buttons */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    text-align: center;
+}
+
+/* Loading Message */
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Video Preview Section */
+video {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 auto;
+}
+
+/* Audio Controls */
+audio {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Dropdown Menu */
+select {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Status Message */
+.status-message {
+    font-size: 16px;
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Cards for Generated Content */
+div > h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
+    text-align: center;
+}
+
+div {
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #f0f8ff, #e6e6fa);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Container Styling */
+.container {
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Body Background */
+body {
+    background: linear-gradient(120deg, #89f7fe, #66a6ff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
